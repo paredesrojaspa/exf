@@ -1,0 +1,35 @@
+.border-experience {
+    border: 3px solid #FFD700; 
+    border-radius: 10px; 
+}
+.icon-container {
+    display: inline-block;
+    background-color: #000000; 
+    border-radius: 50%; 
+    padding: 10px; 
+}
+.icon-container i {
+    color: #ffffff; /* Color blanco del icono */
+    font-size: 3rem; /* Tamaño del icono */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+/* Agregar sombra a las imágenes */
+.project-img {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 5px; /*bordes ligeramente redondeados */
+}
+
+/* Efecto al pasar el mouse */
+.project-img:hover {
+    filter: blur(2px); /* Desenfoque al pasar el mouse */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más fuerte */
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
